@@ -4,16 +4,22 @@ This project demonstrates how to fine-tune the Salesforce/codegen-350M-mono mode
 
 Project Overview
 Base Model: Salesforce/codegen-350M-mono
+
 Technique: Parameter-Efficient Fine-Tuning (PEFT) using LoRA adapters.
+
 Dataset: Formatted instruction-completion subsets of sahil2801/CodeAlpaca-20k.
+
 Hardware: Fully optimized to run on a single NVIDIA Tesla T4 GPU (using 16-bit Float precision).
+
 Interface: An interactive Gradio web application for real-time code generation testing.
-Repository Contents
+
+#Repository Contents
 app.py: The Gradio web interface and inference pipeline backend.
 requirements.txt: Python package requirements for running the application.
 CortexDev_GitHub_Ready.ipynb: Fully documented training and evaluation Jupyter Notebook.
 codegen-lora-senior-engineer-final/: Saved LoRA adapter weights (adapter_model.safetensors and config) configured for insertion onto the base model.
-How to Run Locally
+
+#How to Run Locally
 Clone this repository:
 
 git clone <your-repository-url>
