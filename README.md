@@ -13,7 +13,7 @@ Hardware: Fully optimized to run on a single NVIDIA Tesla T4 GPU (using 16-bit F
 
 Interface: An interactive Gradio web application for real-time code generation testing.
 
-#Repository Contents
+Repository Contents
 app.py: The Gradio web interface and inference pipeline backend.
 requirements.txt: Python package requirements for running the application.
 CortexDev_GitHub_Ready.ipynb: Fully documented training and evaluation Jupyter Notebook.
